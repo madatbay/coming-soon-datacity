@@ -7,7 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(to top, rgba(75, 26, 173, 0.73), rgba(255, 203, 36, 0.52)), url(img/bg_image.jpg);
+    background-image: linear-gradient(to top, rgba(75, 26, 173, 0.73), rgba(255, 203, 36, 0.52)), url(https://i.imgur.com/jYR52Z2.jpg);
     background-size: cover;
     overflow: hidden;
 }
