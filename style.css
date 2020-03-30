@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(75, 26, 173, 0.73), rgba(255, 203, 36, 0.52)), url(img/bg_image.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1,
+p {
+    color: #fff;
+}
+
+body::after {
+    content: "";
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#logo {
+    width: 30%;
+    padding-bottom: 2em;
+}
+
+h1 {
+    font-size: 7em;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.container p {
+    font-size: 24px;
+    margin: 20px;
+}
+
+.sc1 {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    transition: .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.sc1:hover {
+    border-radius: 20px;
+    background-color: #3B5998;
+}
+
+.sc1:hover>.fa-facebook-f {
+    color: #fff;
+}
+
+.sc2 {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    transition: .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.sc2:hover {
+    border-radius: 20px;
+    background-color: #d6249f;
+}
+
+.sc2:hover>.fa-instagram {
+    color: #fff;
+}
+
+.sc3 {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    transition: .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.sc3:hover {
+    border-radius: 20px;
+    background-color: #DC4A38;
+}
+
+.sc3:hover>.fa-envelope {
+    color: #fff;
+}
+
+.fa-facebook-f {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #3B5998;
+    transition: .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.fa-instagram {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #d6249f;
+    transition: .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+
+.fa-envelope {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: #DC4A38;
+    transition: .3s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.footer {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    #logo {
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+
+    .container p {
+        font-size: 18px;
+    }
+
+    .container {
+        top: 30%;
+    }
+
+    .social {
+        margin-top: 250px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        left: 50%;
+        top: 80%;
+        transform: translate(-50%, -50%);
+    }
+}
